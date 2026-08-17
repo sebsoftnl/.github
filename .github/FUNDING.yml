@@ -1,0 +1,9 @@
+# Puts a "Sponsor" button on every repository in this organisation that does not
+# define its own FUNDING.yml. Lives in the sebsoftnl/.github repository, where
+# GitHub reads it as the organisation-wide default.
+#
+# github: the GitHub Sponsors profile, handled inside GitHub.
+# custom: our own donation page, for anyone who would rather not pay through GitHub.
+
+github: [sebsoftnl]
+custom: ["https://customerpanel.sebsoft.nl/sebsoft/donate/intro.php"]
