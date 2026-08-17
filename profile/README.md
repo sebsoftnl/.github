@@ -7,7 +7,7 @@
 
 ### Open source Moodle plugins, kept working across versions
 
-We are a Dutch development shop that has been building Moodle plugins since 2015.<br>
+We are a Dutch development shop that has been building on Moodle since 2004.<br>
 Everything published here is GPL-3.0-or-later and free to use, with or without us.
 
 ![Moodle 4.2 to 5.2](https://img.shields.io/badge/Moodle-4.2%20to%205.2-F98012?style=flat-square&logo=moodle&logoColor=white)
@@ -23,7 +23,8 @@ Everything published here is GPL-3.0-or-later and free to use, with or without u
 Most of what we publish started as a client problem that Moodle core does not solve: a customer
 wanted to hand out access codes, take payments without bolting a webshop onto their LMS, or stop
 their user list from filling up with people who left years ago. We built it once, released it, and
-have been keeping it alive through every Moodle version since.
+have been keeping it alive through every Moodle version since. The oldest of them has been in the
+public plugin directory since 2015.
 
 This organisation is our open source shelf, and it is a mirror: the development itself happens on
 our own GitLab and is pushed here. It is not the whole of what we build, and the plugins below are
@@ -151,7 +152,7 @@ it:
   what makes maintenance predictable rather than something we fit in between projects.
 - **[Make a one-off contribution](https://customerpanel.sebsoft.nl/sebsoft/donate/intro.php)** if a
   specific plugin saved you a job you were dreading.
-- **[Ask about a support contract](https://sebsoft.nl/en/contact/?over=plugin-support).** Free
+- **[Ask about a support contract](https://sebsoft.nl/en/contact/?over=plugin-support#aanvraag).** Free
   plugins come with community support. A contract buys a guaranteed response time, urgent fixes and
   changes built for your situation. The form opens with the question already filled in, so it takes
   a minute.
