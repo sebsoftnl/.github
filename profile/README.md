@@ -11,7 +11,7 @@ We are a Dutch development shop that has been building on Moodle since 2004.<br>
 Everything published here is GPL-3.0-or-later and free to use, with or without us.
 
 ![Moodle 4.2 to 5.2](https://img.shields.io/badge/Moodle-4.2%20to%205.2-F98012?style=flat-square&logo=moodle&logoColor=white)
-![17 plugins on the Moodle Marketplace](https://img.shields.io/badge/Moodle%20Marketplace-17%20plugins-0c1e32?style=flat-square)
+[![18 plugins on the Moodle Marketplace](https://img.shields.io/badge/Moodle%20Marketplace-18%20plugins-0c1e32?style=flat-square)](https://marketplace.moodle.com/user/827)
 ![GPL-3.0-or-later](https://img.shields.io/badge/licence-GPL--3.0--or--later-1647ff?style=flat-square)
 [![Sponsor](https://img.shields.io/badge/sponsor-%E2%99%A5-db61a2?style=flat-square)](https://github.com/sponsors/sebsoftnl)
 [![sebsoft.nl](https://img.shields.io/badge/sebsoft.nl-%E2%86%97-14784b?style=flat-square)](https://sebsoft.nl)
@@ -31,7 +31,7 @@ our own GitLab and is pushed here. It is not the whole of what we build, and the
 the part we publish.
 
 Each plugin links to its repository. The Moodle column is the version range of the latest release,
-and the last column is where to get it: the [Moodle Marketplace](https://marketplace.moodle.com/),
+and the last column is where to get it: the [Moodle Marketplace](https://marketplace.moodle.com/user/827),
 and [CAMP](https://camp-registry.org/), the independent Community Archive of Moodle Plugins, which
 rebuilds a package from the maintainer's tagged release and hash-compares it before it carries a
 badge.
@@ -109,7 +109,7 @@ they are interchangeable, so pick on price, coverage, or the contract you alread
 | [`smsgateway_textmagic`](https://github.com/sebsoftnl/moodle-smsgateway_textmagic) | Fastest to set up: create an account, paste the API key, done. No separate sender registration to get going | 4.5 to 5.0 | [Marketplace](https://marketplace.moodle.com/plugins/smsgateway_textmagic) |
 | [`smsgateway_sinch`](https://github.com/sebsoftnl/moodle-smsgateway_sinch) | The heaviest of the four in reach and delivery guarantees. The choice for international sending or verifiable delivery reporting | 4.5 to 5.0 | [Marketplace](https://marketplace.moodle.com/plugins/smsgateway_sinch) |
 | [`smsgateway_messagebird`](https://github.com/sebsoftnl/moodle-smsgateway_messagebird) | A Dutch provider, which keeps the processing-agreement discussion inside the EU | 4.5 to 5.0 | [Marketplace](https://marketplace.moodle.com/plugins/smsgateway_messagebird) · [CAMP](https://camp-registry.org/plugin/smsgateway_messagebird.html) |
-| [`smsgateway_plivo`](https://github.com/sebsoftnl/moodle-smsgateway_plivo) | Per-message pricing without a subscription, which suits low or irregular volumes such as two-factor at login only | see repo | GitHub only |
+| [`smsgateway_plivo`](https://github.com/sebsoftnl/moodle-smsgateway_plivo) | Per-message pricing without a subscription, which suits low or irregular volumes such as two-factor at login only | 4.5 to 5.0 | [Marketplace](https://marketplace.moodle.com/plugins/smsgateway_plivo) |
 
 > Requires Moodle 4.5 or later, plus an account and API key with the provider. You pay the provider
 > for the messages; we only supply the integration.
