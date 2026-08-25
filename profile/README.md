@@ -8,10 +8,11 @@
 ### Open source Moodle plugins, kept working across versions
 
 We are a Dutch development shop that has been building on Moodle since 2004.<br>
-Everything published here is GPL-3.0-or-later and free to use, with or without us.
+Everything published here is GPL-3.0-or-later. Nearly all of it is free to use, with or without us;
+where a subscription applies, the table says so.
 
 ![Moodle 4.2 to 5.2](https://img.shields.io/badge/Moodle-4.2%20to%205.2-F98012?style=flat-square&logo=moodle&logoColor=white)
-[![18 plugins on the Moodle Marketplace](https://img.shields.io/badge/Moodle%20Marketplace-18%20plugins-0c1e32?style=flat-square)](https://marketplace.moodle.com/user/827)
+[![19 plugins on the Moodle Marketplace](https://img.shields.io/badge/Moodle%20Marketplace-19%20plugins-0c1e32?style=flat-square)](https://marketplace.moodle.com/user/827)
 ![GPL-3.0-or-later](https://img.shields.io/badge/licence-GPL--3.0--or--later-1647ff?style=flat-square)
 [![Sponsor](https://img.shields.io/badge/sponsor-%E2%99%A5-db61a2?style=flat-square)](https://github.com/sponsors/sebsoftnl)
 [![sebsoft.nl](https://img.shields.io/badge/sebsoft.nl-%E2%86%97-14784b?style=flat-square)](https://sebsoft.nl)
@@ -116,6 +117,21 @@ they are interchangeable, so pick on price, coverage, or the contract you alread
 
 <sub>Use cases, limitations and FAQ: [sebsoft.nl/en/moodle-sms-plugins](https://sebsoft.nl/en/moodle-sms-plugins/)</sub>
 
+## 📣 Announcements
+
+Notices that appear and disappear on their own, so nobody has to remember to take them down after
+the maintenance window closes.
+
+| Plugin | What it does | Moodle | Install from |
+| --- | --- | --- | --- |
+| [`local_plannot`](https://github.com/sebsoftnl/moodle-local_plannot) | Schedules a message with a start and end date, site-wide or inside a single course, with a choice of audience, placement, styling and how it can be dismissed *(paid)* | 4.5 to 5.2 | [Marketplace](https://marketplace.moodle.com/plugins/local_plannot) |
+
+> This one runs on a paid subscription, unlike everything else on this page. The code is still
+> GPL-3.0-or-later and ships inside the plugin; what the subscription pays for is the releases, the
+> updates and the support. The repository linked above is an issue tracker and holds no source.
+
+<sub>Use cases, limitations and FAQ: [sebsoft.nl/en/moodle-announcement-plugins](https://sebsoft.nl/en/moodle-announcement-plugins/)</sub>
+
 ## 🔤 Fonts and PDF
 
 | Plugin | What it does | Moodle | Install from |
@@ -144,9 +160,9 @@ they are interchangeable, so pick on price, coverage, or the contract you alread
 
 ## Supporting this work
 
-The plugins are free. Keeping them working across every Moodle release is not, and that part is
-paid for out of client work. If your organisation runs on them, there are three ways to help carry
-it:
+Nearly all of these plugins are free. Keeping them working across every Moodle release is not, and
+that part is paid for out of client work. If your organisation runs on them, there are three ways
+to help carry it:
 
 - **[Sponsor us on GitHub](https://github.com/sponsors/sebsoftnl)** for a recurring amount, which is
   what makes maintenance predictable rather than something we fit in between projects.
@@ -162,10 +178,10 @@ nothing.
 
 ## Beyond what is published here
 
-Open source is a deliberate part of what we do, not all of it. We also build plugins we license
-commercially, and work written for one organisation that stays with that organisation. Neither
-appears in this list and neither goes through a public registry, so a plugin you cannot find here
-may still exist.
+Open source is a deliberate part of what we do, not all of it. Scheduled Messages above is sold
+rather than given away, and there is more of that kind: plugins we license commercially, and work
+written for one organisation that stays with that organisation. Most of it never reaches a public
+registry, so a plugin you cannot find here may still exist.
 
 The rest of our work sits in the same place: [custom Moodle
 development](https://sebsoft.nl/en/moodle-plugin-development/), integrations with the systems you
