@@ -145,7 +145,7 @@ courses, limited to what Moodle already allows them to do.
 > connect. Use test data until your organisation has agreed what may be shared. The AI client and
 > any subscription it needs are separate from the plugin.
 
-<sub>Installation and client setup: [the repository README](https://github.com/sebsoftnl/moodle-tool_teachermcp#readme)</sub>
+<sub>Features, access and setup: [sebsoft.nl/en/teachermcp](https://sebsoft.nl/en/teachermcp/)</sub>
 
 ## 🔤 Fonts and PDF
 
