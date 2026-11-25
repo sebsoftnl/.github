@@ -11,7 +11,7 @@ We are a Dutch development shop that has been building on Moodle since 2004.<br>
 Everything published here is GPL-3.0-or-later. Nearly all of it is free to use, with or without us;
 where a subscription applies, the table says so.
 
-![Moodle 4.2 to 5.2](https://img.shields.io/badge/Moodle-4.2%20to%205.2-F98012?style=flat-square&logo=moodle&logoColor=white)
+![Moodle 4.2 to 5.3](https://img.shields.io/badge/Moodle-4.2%20to%205.3-F98012?style=flat-square&logo=moodle&logoColor=white)
 [![19 plugins on the Moodle Marketplace](https://img.shields.io/badge/Moodle%20Marketplace-19%20plugins-0c1e32?style=flat-square)](https://marketplace.moodle.com/user/827)
 ![GPL-3.0-or-later](https://img.shields.io/badge/licence-GPL--3.0--or--later-1647ff?style=flat-square)
 [![Sponsor](https://img.shields.io/badge/sponsor-%E2%99%A5-db61a2?style=flat-square)](https://github.com/sponsors/sebsoftnl)
@@ -107,10 +107,10 @@ they are interchangeable, so pick on price, coverage, or the contract you alread
 
 | Plugin | Why you would pick this one | Moodle | Install from |
 | --- | --- | --- | --- |
-| [`smsgateway_textmagic`](https://github.com/sebsoftnl/moodle-smsgateway_textmagic) | Fastest to set up: create an account, paste the API key, done. No separate sender registration to get going | 4.5 to 5.0 | [Marketplace](https://marketplace.moodle.com/plugins/smsgateway_textmagic) |
-| [`smsgateway_sinch`](https://github.com/sebsoftnl/moodle-smsgateway_sinch) | The heaviest of the four in reach and delivery guarantees. The choice for international sending or verifiable delivery reporting | 4.5 to 5.0 | [Marketplace](https://marketplace.moodle.com/plugins/smsgateway_sinch) |
+| [`smsgateway_textmagic`](https://github.com/sebsoftnl/moodle-smsgateway_textmagic) | Fastest to set up: create an account, paste the API key, done. No separate sender registration to get going | 4.5 to 5.0 | [Marketplace](https://marketplace.moodle.com/plugins/smsgateway_textmagic) · [CAMP](https://camp-registry.org/plugin/smsgateway_textmagic.html) |
+| [`smsgateway_sinch`](https://github.com/sebsoftnl/moodle-smsgateway_sinch) | The heaviest of the four in reach and delivery guarantees. The choice for international sending or verifiable delivery reporting | 4.5 to 5.0 | [Marketplace](https://marketplace.moodle.com/plugins/smsgateway_sinch) · [CAMP](https://camp-registry.org/plugin/smsgateway_sinch.html) |
 | [`smsgateway_messagebird`](https://github.com/sebsoftnl/moodle-smsgateway_messagebird) | A Dutch provider, which keeps the processing-agreement discussion inside the EU | 4.5 to 5.0 | [Marketplace](https://marketplace.moodle.com/plugins/smsgateway_messagebird) · [CAMP](https://camp-registry.org/plugin/smsgateway_messagebird.html) |
-| [`smsgateway_plivo`](https://github.com/sebsoftnl/moodle-smsgateway_plivo) | Per-message pricing without a subscription, which suits low or irregular volumes such as two-factor at login only | 4.5 to 5.0 | [Marketplace](https://marketplace.moodle.com/plugins/smsgateway_plivo) |
+| [`smsgateway_plivo`](https://github.com/sebsoftnl/moodle-smsgateway_plivo) | Per-message pricing without a subscription, which suits low or irregular volumes such as two-factor at login only | 4.5 to 5.0 | [Marketplace](https://marketplace.moodle.com/plugins/smsgateway_plivo) · [CAMP](https://camp-registry.org/plugin/smsgateway_plivo.html) |
 
 > Requires Moodle 4.5 or later, plus an account and API key with the provider. You pay the provider
 > for the messages; we only supply the integration.
@@ -132,12 +132,27 @@ the maintenance window closes.
 
 <sub>Use cases, limitations and FAQ: [sebsoft.nl/en/moodle-announcement-plugins](https://sebsoft.nl/en/moodle-announcement-plugins/)</sub>
 
+## 🤖 AI assistants for teachers
+
+A teacher connects Claude, ChatGPT or another MCP client to Moodle and gets help with their own
+courses, limited to what Moodle already allows them to do.
+
+| Plugin | What it does | Moodle | Install from |
+| --- | --- | --- | --- |
+| [`tool_teachermcp`](https://github.com/sebsoftnl/moodle-tool_teachermcp) | Gives a teacher's AI assistant an authenticated MCP endpoint to read course materials, create pages, quizzes and H5P activities, and prepare grading *(beta)* | 4.5 to 5.3 | [CAMP](https://camp-registry.org/plugin/tool_teachermcp.html) |
+
+> Course materials and student data, hidden ones included, can be sent to the AI service you
+> connect. Use test data until your organisation has agreed what may be shared. The AI client and
+> any subscription it needs are separate from the plugin.
+
+<sub>Installation and client setup: [the repository README](https://github.com/sebsoftnl/moodle-tool_teachermcp#readme)</sub>
+
 ## 🔤 Fonts and PDF
 
 | Plugin | What it does | Moodle | Install from |
 | --- | --- | --- | --- |
 | [`tool_tcpdffonts`](https://github.com/sebsoftnl/moodle-tool_tcpdffonts) | Converts and manages your own fonts for Moodle's PDF output from the admin interface, and stores them outside core so an upgrade does not wipe them | 4.2 to 5.1 | [Marketplace](https://marketplace.moodle.com/plugins/tool_tcpdffonts) · [CAMP](https://camp-registry.org/plugin/tool_tcpdffonts.html) |
-| [`tiny_fonttools`](https://github.com/sebsoftnl/moodle-tiny_fonttools) | Extends the font choices in the TinyMCE editor, so what an author picks matches what comes out in the PDF *(in development)* | see repo | GitHub only |
+| [`tiny_fonttools`](https://github.com/sebsoftnl/moodle-tiny_fonttools) | Extends the font choices in the TinyMCE editor, so what an author picks matches what comes out in the PDF *(in development)* | see repo | [CAMP](https://camp-registry.org/plugin/tiny_fonttools.html) |
 
 > Adding a font does not mean you may use it: check whether the licence permits embedding in a PDF.
 
